@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Mac 好用的終端機</title>
+    <url>/Blog/Mac%20%E5%A5%BD%E7%94%A8%E7%9A%84%E7%B5%82%E7%AB%AF%E6%A9%9F/</url>
+    <content><![CDATA[<h1 id="Mac-好用的終端機"><a href="#Mac-好用的終端機" class="headerlink" title="Mac 好用的終端機"></a>Mac 好用的終端機</h1><h2 id="1、安裝zsh"><a href="#1、安裝zsh" class="headerlink" title="1、安裝zsh"></a>1、安裝<code>zsh</code></h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">brew install zsh</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="2、安裝oh-my-zsh"><a href="#2、安裝oh-my-zsh" class="headerlink" title="2、安裝oh-my-zsh"></a>2、安裝<code>oh-my-zsh</code></h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sh -c &quot;$(curl -fsSL https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;robbyrussell&#x2F;oh-my-zsh&#x2F;master&#x2F;tools&#x2F;install.sh)&quot;</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="3、套用主題"><a href="#3、套用主題" class="headerlink" title="3、套用主題"></a>3、套用主題</h2><h3 id="1-開啟-zshrc設定檔"><a href="#1-開啟-zshrc設定檔" class="headerlink" title="1. 開啟.zshrc設定檔"></a>1. 開啟<code>.zshrc</code>設定檔</h3><p>使用<code>.zshrc</code>使終端機開啟後，快速設定。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">vi ~&#x2F;.zshrc</span><br></pre></td></tr></table></figure>
+<h3 id="2-設定主題"><a href="#2-設定主題" class="headerlink" title="2. 設定主題"></a>2. 設定主題</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">## 使用agnoster主題預設為robbyrussell</span><br><span class="line">ZSH_THEME&#x3D;&quot;agnoster&quot;</span><br><span class="line">## 隱藏用戶名稱(user@hostname)</span><br><span class="line">DEFAULT_USER&#x3D;&#96;id -un&#96;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>Command</category>
+      </categories>
+      <tags>
+        <tag>Command, Mac</tag>
+      </tags>
+  </entry>
+</search>
